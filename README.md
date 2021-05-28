@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React Crash Course
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This video is thanks to all of you watching as well as those supporting me. 
+
+## Support me:
+* [Patreon](https://www.patreon.com/RobertBrunhage)
+* [BuyMeACoffee](https://www.buymeacoffee.com/robertbrunhage)
 
 ## Available Scripts
 
