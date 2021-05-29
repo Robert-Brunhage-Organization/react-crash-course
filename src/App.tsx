@@ -1,9 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TrashIcon } from "@heroicons/react/outline";
-import Headline from "./components/Headline";
-import Input from "./components/Input";
-import Button from "./components/Button";
-import Todos from "./components/Todos";
 export const TODO_KEY = "TODOS";
 
 function App() {
@@ -53,7 +49,7 @@ function App() {
       </div>
       {todos.map((value, index) => {
         return (
-          <div className="flex justify-between w-80">
+          <div key={index} className="flex justify-between w-80">
             <p>{value}</p>
             <TrashIcon
               data-testid={`delete-${value}`}
